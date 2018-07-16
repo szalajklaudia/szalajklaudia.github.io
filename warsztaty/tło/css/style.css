@@ -1,3 +1,7 @@
 body {
-    background-image: url("../img/Pepsi_logo_small.png");
+    background-color:lime;
+    background-image: url("../img/2000px-Pepsi_logo_2014.svg.png");
+    background-repeat:no-repeat;
+   /* background-position:400px 100px;*/
+    background-size: contain;
 }
