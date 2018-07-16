@@ -1,0 +1,9 @@
+body {
+    background-color:lavender;
+}
+/*zmiana tła gdy zmniejsza się przeglądarke*/
+@media (min-width:576px) {
+    body {
+        background-color:aqua;
+    }
+}
