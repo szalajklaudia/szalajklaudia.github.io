@@ -1,0 +1,17 @@
+body {
+    background-color:blanchedalmond;
+}
+
+h1 {
+    color:red;
+}
+
+p#red {
+    color:darkred;
+    padding:5px;
+}
+
+p#blue {
+    color:blue;
+    padding:5px;
+}

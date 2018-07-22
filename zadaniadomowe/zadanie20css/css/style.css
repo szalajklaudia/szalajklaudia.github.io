@@ -1,0 +1,23 @@
+body {
+    background-color:cornflowerblue;
+}
+
+h1 {
+    background-color:midnightblue;
+}
+
+p#first {
+    background-color:darkslateblue;
+}
+
+h2 {
+    background-color:slateblue;
+}
+
+p#second {
+    background-color:mediumslateblue;
+}
+
+ul {
+    background-color:lightsteelblue;
+}

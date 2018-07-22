@@ -1,0 +1,70 @@
+a[href="#about"] {
+    color:red;
+}
+
+a[href="#skills"] {
+    color:mediumorchid;
+}
+
+a[href="#portfolio"] {
+    color:olive;
+}
+
+a[href="#contact"] {
+    color:darkslateblue;
+}
+section#about {
+    background-color:blueviolet;
+}
+
+
+
+
+
+section#skills > div.boxes > div#pierwszy {
+    background-color:magenta;
+    width:100px;
+    height: 100px;
+    display:inline-block;
+}
+
+section#skills > div.boxes > div#drugi {
+    background-color:blue;
+    width:100px;
+    height: 100px;
+    display:inline-block;
+} 
+
+section#skills > div.boxes > div#trzeci {
+    background-color:teal;
+    width:100px;
+    height: 100px;
+    display:inline-block;
+} 
+
+section#skills > div.boxes > div#czwarty {
+    background-color:yellow;
+    width:100px;
+    height: 100px;
+    display:inline-block;
+}
+
+
+
+
+
+
+section#portfolio > div.boxes2 > div#square {
+    width:100px;
+    height:100px;
+    background-color:yellowgreen;
+    border:5px solid pink;
+    margin:5px;
+}
+
+section#contact > form > input[type="submit"] {
+    width:200px;
+    height:30px;
+    background-color:darkred;
+    color:white;    
+}

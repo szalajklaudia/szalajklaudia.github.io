@@ -3,3 +3,12 @@ p {
     height:100px;
     background-color:coral;
 }
+
+p#background {
+    background-color:green;
+}
+
+p#opacity {
+    background-color:coral;
+    opacity:0.5;
+}
