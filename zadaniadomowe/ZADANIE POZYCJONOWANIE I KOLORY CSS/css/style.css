@@ -1,0 +1,188 @@
+div.box {
+    background-color: aliceblue;
+    width:310px;
+    height:100%;
+}
+
+div#first {
+    display:inline-block;
+    width:100px;
+    height:100px;
+    background-color:red;
+    position: relative;
+}
+
+div#second {
+    display:inline-block;
+    width:100px;
+    height:100px;
+    background-color:blue;
+    position: relative;
+}
+
+div#third {
+    display:inline-block;
+    width:100px;
+    height:100px;
+    background-color:green;
+    position: relative;
+}
+
+div#fourth {
+    display:inline-block;
+    width:100px;
+    height:100px;
+    background-color:yellow;
+    position: relative;
+}
+
+div#fifth{
+    display:inline-block;
+    width:100px;
+    height:100px;
+    background-color:black;
+    position: relative;
+}
+
+div#sixth {
+    display:inline-block;
+    width:100px;
+    height:100px;
+    background-color:orange;
+    position: relative;
+}
+
+div#seventh {
+    display:inline-block;
+    width:100px;
+    height:100px;
+    background-color:purple;
+    position: relative;
+}
+
+div#eighth {
+    display:inline-block;
+    width:100px;
+    height:100px;
+    background-color:gray;
+    position: relative;
+}
+
+div#ninth {
+    display:inline-block;
+    width:100px;
+    height:100px;
+    background-color:pink;
+    position: relative;
+}
+
+
+div.circle1 {
+    background: pink;
+    border: 1px solid black;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+div.circle2 {
+    background: gray;
+    border: 1px solid black;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+div.circle3 {
+    background: purple;
+    border: 1px solid black;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+div.circle4 {
+    background: green;
+    border: 1px solid black;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+div.circle5 {
+    background: red;
+    border: 1px solid black;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+div.circle6 {
+    background: blue;
+    border: 1px solid black;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+div.circle6 {
+    background: blue;
+    border: 1px solid black;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+div.circle7 {
+    background: orange;
+    border: 1px solid black;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+div.circle8 {
+    background: yellow;
+    border: 1px solid black;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+div.circle9 {
+    background: black;
+    border: 1px solid black;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
