@@ -5,6 +5,7 @@ let btnKliknijMnie = document.createElement("button");
 let txtKliknijMnie = document.createTextNode("Kliknij Button");
 
 let classKliknijMnie = document.createAttribute("class");
+//
 
 classKliknijMnie.value = "button";
 btnKliknijMnie.setAttribute("id", "main-button");

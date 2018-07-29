@@ -1,29 +1,45 @@
-function walidacjaImienia() {
-    let poleImie = document.getElementById("name").value; //chwycić id=name
+let wszystkieZgody = document.getElementById("wszystkie-zgody");
+
+function wszystkieZgodyChange() {
+    let zgodaPierwsza = document.getElementById("zgoda-marketingowa-1");
+    let zgodaDruga = document.getElementById("zgoda-marketingowa-2");
     
-    //stworzyc alert nad formularzem - document.createElement
+//    console.log(zgoda2);
+//    console.log(wszystkieZgody.checked);
     
-    for (let i=0; i < poleImie.length; i++) {
-         if ( poleImie[i]).value === '') 
-         {   //alert nad formularzem
-            i = poleImie.length + 1;
-        }  
+    if (wszystkieZgody.checked) {
+        zgodaPierwsza.checked = true;
+        zgodaDruga.checked = true;
+        zgodaPierwsza.setAttribute("disabled", "");
+        zgodaDruga.setAttribute("disabled", "");
+    } else { 
+        zgodaPierwsza.checked = false;
+        zgodaDruga.checked = false;
+        zgodaPierwsza.removeAttribute("disabled");
+        zgodaDruga.removeAttribute("disabled");
     }
-    
-/*if (imie i nazwisko jest wypelnione) {
-    wyslij formularz
-} else if (imie i nazwisko jest puste{
-    nie wysyłaj formularza, wyswietl alert
-}
-*/
-    
 }
 
-function //NA MAILA
+wszystkieZgody.addEventListener("change", wszystkieZgodyChange);
+//document.getElementById("formularz").addEventListener("submit", waliduj);
 
-function zaznacz (formularz) {
-    //if (document.getElementById("wszystkie-zgody").value ==  )
-    let checkbox = document.getElementById("wszys;
+function waliduj(e) {
+    e.preventDefault();
+    let name = document.getElementById("name").value;
+    let email = document.getElementById("email").value;
+    let zgoda1 = document.getElementById("zgoda-marketingowa-1").value;
     
-}
-//PODPIĘCIE FUKCJI DO CAŁEGO FORM, DO SUBMITA
+    //ZROBIĆ PARAGRAFY
+    
+    if(name == '') {
+        document.getElementById("wiadomosc").innerHTML="<li>wpisz imie</li>"; //UCHWYT
+        
+console.log("cos");
+    }
+
+};
+
+let formularz = document.getElementById("formularz");
+//formularz.addEventListener("submit", wszystkieZgodyChange);
+
+//wszystkieZgody.onchange = stanCheckboxa
