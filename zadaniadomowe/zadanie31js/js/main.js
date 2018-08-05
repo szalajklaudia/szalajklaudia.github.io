@@ -1,4 +1,5 @@
-function oknoAlert() {
-    alert('Klik działa!');
-}
+let button = document.querySelector("button"); 
 
+button.onclick = function() {
+    alert ('Klik działa!');
+}
