@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+     <h1>Zapisz się na szkolenie</h1>
+      <form method="POST" action="https://formspree.io/szalajklaudia@gmail.com">
+    <label for="Imię">Imię:</label><br>
+    <input type="text" name="Imię" id="Imię" placeholder="Wpisz imię"><br>
+    <label for="Nazwisko">Nazwisko:</label><br>
+    <input type="text" name="Nazwisko" id="Nazwisko" placeholder="Wpisz nazwisko"><br>
+    <label for="Email">Email:</label><br>
+    <input type="text" name="Email" id="Email" placeholder="Wpisz email"><br>
+    <label for="Numer_telefonu">Numer telefonu</label><br>
+    <input type="text" name="Numer_telefonu" id="Numer_telefonu" placeholder="Wpisz numer telefonu"><br>
+    <label for="Wybierz_miasto">Wybierz miasto:</label><br>
+    <select name="Wybierz_miasto" id="Wybierz_miasto">
+        <option value="Gdańsk">Gdańsk</option>
+        <option value="Kraków">Kraków</option>   <option value="Warszawa">Warszawa</option>
+    </select><br><br>
+    <label>Płeć: </label>
+        <br/>
+        <label><input type="radio" name="gender" value="male">mężczyzna</label>
+        <br/>
+        <label><input type="radio" name="gender" value="female">kobieta</label>
+        <br/><br/>
+    <label for="agreement">Wyrażam zgodę na <br> przetwarzanie danych <br> osobowych:</label>
+    <input type ="checkbox" name ="agreement" id="agreement" required><br><br>
+    <label for="Wiadomość">Wiadomość:</label><br>
+    <textarea name="Wiadomość" id="Wiadomość" maxlength=300 ></textarea>
+    <input type="submit" value="Wyślij">
+</form>
+</body>
+</html>
